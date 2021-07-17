@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
 )
 
 func main() {

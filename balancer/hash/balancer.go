@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/tencentyun/tsf-go/balancer"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/balancer"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/naming"
 )
 
 type hashKey struct{}

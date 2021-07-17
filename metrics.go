@@ -8,9 +8,9 @@ import (
 	"github.com/go-kratos/kratos/v2/errors"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/tencentyun/tsf-go/pkg/meta"
-	"github.com/tencentyun/tsf-go/pkg/sys/monitor"
-	"github.com/tencentyun/tsf-go/util"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/pkg/sys/monitor"
+	"github.com/bjxujiang/tsf-go/util"
 )
 
 func getStat(serviceName string, operation string, method string) *monitor.Stat {

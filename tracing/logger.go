@@ -2,7 +2,7 @@ package tracing
 
 import (
 	"github.com/natefinch/lumberjack"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

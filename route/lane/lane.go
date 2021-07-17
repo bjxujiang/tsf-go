@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/naming"
-	"github.com/tencentyun/tsf-go/pkg/config"
-	"github.com/tencentyun/tsf-go/pkg/config/consul"
-	"github.com/tencentyun/tsf-go/pkg/meta"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/route"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/pkg/config"
+	"github.com/bjxujiang/tsf-go/pkg/config/consul"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/route"
 	"go.uber.org/zap"
 )
 

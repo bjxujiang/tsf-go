@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tencentyun/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
 )
 
 func TestLog(t *testing.T) {

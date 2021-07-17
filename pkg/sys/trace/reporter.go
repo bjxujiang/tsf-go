@@ -3,7 +3,7 @@ package trace
 import (
 	"encoding/json"
 
-	"github.com/tencentyun/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/log"
 	"go.uber.org/zap"
 
 	"github.com/openzipkin/zipkin-go/model"

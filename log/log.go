@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/natefinch/lumberjack"
-	"github.com/tencentyun/tsf-go/pkg/meta"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

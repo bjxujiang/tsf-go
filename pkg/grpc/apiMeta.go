@@ -8,8 +8,8 @@ import (
 
 	"github.com/fullstorydev/grpcurl"
 	"github.com/jhump/protoreflect/grpcreflect"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/sys/apiMeta"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/sys/apiMeta"
 	"google.golang.org/grpc"
 	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 )

@@ -9,9 +9,9 @@ import (
 	"github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/model"
 	"github.com/openzipkin/zipkin-go/propagation/b3"
-	"github.com/tencentyun/tsf-go/pkg/meta"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/pkg/sys/monitor"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/sys/monitor"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

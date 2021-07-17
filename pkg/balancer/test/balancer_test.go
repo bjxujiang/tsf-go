@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tencentyun/tsf-go/pkg/balancer"
-	"github.com/tencentyun/tsf-go/pkg/balancer/p2c"
-	"github.com/tencentyun/tsf-go/pkg/balancer/p2ce"
-	"github.com/tencentyun/tsf-go/pkg/balancer/random"
-	"github.com/tencentyun/tsf-go/pkg/balancer/wrr"
-	"github.com/tencentyun/tsf-go/pkg/naming"
+	"github.com/bjxujiang/tsf-go/pkg/balancer"
+	"github.com/bjxujiang/tsf-go/pkg/balancer/p2c"
+	"github.com/bjxujiang/tsf-go/pkg/balancer/p2ce"
+	"github.com/bjxujiang/tsf-go/pkg/balancer/random"
+	"github.com/bjxujiang/tsf-go/pkg/balancer/wrr"
+	"github.com/bjxujiang/tsf-go/pkg/naming"
 )
 
 var serverNum int

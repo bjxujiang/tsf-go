@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/config"
-	"github.com/tencentyun/tsf-go/pkg/http"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/pkg/util"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/config"
+	"github.com/bjxujiang/tsf-go/pkg/http"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/util"
 
 	"gopkg.in/yaml.v3"
 )

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tencentyun/tsf-go/pkg/metric"
+	"github.com/bjxujiang/tsf-go/pkg/metric"
 )
 
 func markSuccess(b Breaker, count int) {

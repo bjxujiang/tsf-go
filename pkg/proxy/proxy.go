@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
 
 	"github.com/elazarl/goproxy"
 	"golang.org/x/crypto/ssh"

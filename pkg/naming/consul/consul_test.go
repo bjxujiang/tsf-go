@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/naming"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/naming"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
 )
 
 var serviceNum int

@@ -3,7 +3,7 @@ package balancer
 import (
 	"context"
 
-	"github.com/tencentyun/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/naming"
 )
 
 // DoneInfo is callback when rpc done

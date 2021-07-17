@@ -11,11 +11,11 @@ import (
 
 	"github.com/go-kratos/kratos/v2/errors"
 	"github.com/go-kratos/kratos/v2/registry"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/naming"
-	"github.com/tencentyun/tsf-go/pkg/http"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/pkg/util"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/pkg/http"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/util"
 )
 
 // Used to return information about a node

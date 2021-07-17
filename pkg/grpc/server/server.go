@@ -11,21 +11,21 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/auth"
-	"github.com/tencentyun/tsf-go/pkg/auth/authenticator"
-	cfgConsul "github.com/tencentyun/tsf-go/pkg/config/consul"
-	tgrpc "github.com/tencentyun/tsf-go/pkg/grpc"         // NOTE: open json encoding by set header Content-Type: application/grpc+json
-	"github.com/tencentyun/tsf-go/pkg/grpc/encoding/json" // NOTE: open json encoding by set header Content-Type: application/grpc+json
-	"github.com/tencentyun/tsf-go/pkg/naming"
-	"github.com/tencentyun/tsf-go/pkg/naming/consul"
-	"github.com/tencentyun/tsf-go/pkg/proxy"
-	"github.com/tencentyun/tsf-go/pkg/sys/apiMeta"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/pkg/sys/metrics"
-	"github.com/tencentyun/tsf-go/pkg/sys/trace"
-	"github.com/tencentyun/tsf-go/pkg/util"
-	"github.com/tencentyun/tsf-go/pkg/version"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/auth"
+	"github.com/bjxujiang/tsf-go/pkg/auth/authenticator"
+	cfgConsul "github.com/bjxujiang/tsf-go/pkg/config/consul"
+	tgrpc "github.com/bjxujiang/tsf-go/pkg/grpc"         // NOTE: open json encoding by set header Content-Type: application/grpc+json
+	"github.com/bjxujiang/tsf-go/pkg/grpc/encoding/json" // NOTE: open json encoding by set header Content-Type: application/grpc+json
+	"github.com/bjxujiang/tsf-go/pkg/naming"
+	"github.com/bjxujiang/tsf-go/pkg/naming/consul"
+	"github.com/bjxujiang/tsf-go/pkg/proxy"
+	"github.com/bjxujiang/tsf-go/pkg/sys/apiMeta"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/sys/metrics"
+	"github.com/bjxujiang/tsf-go/pkg/sys/trace"
+	"github.com/bjxujiang/tsf-go/pkg/util"
+	"github.com/bjxujiang/tsf-go/pkg/version"
 
 	"github.com/openzipkin/zipkin-go"
 	zipkingrpc "github.com/openzipkin/zipkin-go/middleware/grpc"

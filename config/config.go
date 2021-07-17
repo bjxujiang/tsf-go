@@ -3,8 +3,8 @@ package config
 import (
 	"time"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/config"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/config"
 )
 
 var _ config.Config = &Config{}

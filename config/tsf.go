@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/config"
-	"github.com/tencentyun/tsf-go/pkg/config/consul"
-	"github.com/tencentyun/tsf-go/pkg/sys/env"
-	"github.com/tencentyun/tsf-go/pkg/util"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/config"
+	"github.com/bjxujiang/tsf-go/pkg/config/consul"
+	"github.com/bjxujiang/tsf-go/pkg/sys/env"
+	"github.com/bjxujiang/tsf-go/pkg/util"
 )
 
 var mu sync.RWMutex

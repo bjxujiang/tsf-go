@@ -4,8 +4,8 @@ import (
 	"context"
 	"math/rand"
 
-	"github.com/tencentyun/tsf-go/balancer"
-	"github.com/tencentyun/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/balancer"
+	"github.com/bjxujiang/tsf-go/naming"
 )
 
 var (

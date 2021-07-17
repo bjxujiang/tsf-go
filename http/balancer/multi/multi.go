@@ -8,11 +8,11 @@ import (
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/go-kratos/kratos/v2/transport/http/balancer"
 	"github.com/openzipkin/zipkin-go"
-	tBalancer "github.com/tencentyun/tsf-go/balancer"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/naming"
-	"github.com/tencentyun/tsf-go/pkg/meta"
-	"github.com/tencentyun/tsf-go/route"
+	tBalancer "github.com/bjxujiang/tsf-go/balancer"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/naming"
+	"github.com/bjxujiang/tsf-go/pkg/meta"
+	"github.com/bjxujiang/tsf-go/route"
 )
 
 type Balancer struct {

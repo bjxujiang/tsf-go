@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/tencentyun/tsf-go/log"
-	"github.com/tencentyun/tsf-go/pkg/auth"
-	"github.com/tencentyun/tsf-go/pkg/config"
-	"github.com/tencentyun/tsf-go/pkg/naming"
+	"github.com/bjxujiang/tsf-go/log"
+	"github.com/bjxujiang/tsf-go/pkg/auth"
+	"github.com/bjxujiang/tsf-go/pkg/config"
+	"github.com/bjxujiang/tsf-go/pkg/naming"
 )
 
 var (
